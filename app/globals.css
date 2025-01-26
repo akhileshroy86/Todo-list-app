@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.nav-header {
+  background-color: #0d0d0d;
+}
+
+.logoForTablet {
+  position: absolute;
+  width: 26px;
+  height: 48px;
+  left: 730px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.no-tasks-card .no-tasks-heading {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.no-tasks-card .no-tasks-text {
+  font-weight: 400;
+  font-size: 16px;
+}
