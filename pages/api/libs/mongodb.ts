@@ -2,7 +2,7 @@ import mongoose, { Connection } from 'mongoose';
 
 // MongoDB connection function
 const connectToDatabase = async (): Promise<Connection> => {
-  const uri: string = 'mongodb+srv://devarashettyakhileshroy:h5qDdZGwlroLyXoW@cluster0.nr4oq.mongodb.net/';
+  const uri: string = '';
 
   try {
     const connection = await mongoose.connect(uri, { });

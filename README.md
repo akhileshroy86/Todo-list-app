@@ -3,7 +3,7 @@
 =======
 # Front end setup for Noore Todo app
 
-The Noore Todo Application is a simple todo-list management app that allows users to add, edit, delete, and manage their tasks. It features a frontend developed with React and a backend powered by Node.js. This guide will walk you through the setup and configuration process to get the app up and running.
+The  Todo Application is a simple todo-list management app that allows users to add, edit, delete, and manage their tasks. It features a front-end and back-end developed with Nextjs. This guide will walk you through the setup and configuration process to get the app up and running.
 
 Follow the steps below to set up and run the project locally.
 
@@ -13,8 +13,7 @@ Make sure you have the following installed on your system:
 
 - **Node.js** (>= 20.x)
 - **npm** (Node Package Manager)
-- Access to the backend repository: [Noore Todo Backend](https://github.com/shashidhar-katkam/noore-todo-backend)
-- Setup and run the backend
+
 
 ## Getting Started
 
@@ -23,8 +22,8 @@ Make sure you have the following installed on your system:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/shashidhar-katkam/noore-todo-frontend.git
-cd noore-todo-frontend
+git clone https://github.com/akhileshroy86/Todo-list-app.git
+cd Todo-list-app
 npm install
 ```
 
@@ -33,13 +32,11 @@ npm install
 To configure the backend URL for your application if you any change any in backend setup, follow these steps:
 
 1. Open the file located at:  
-   `app\utils\constants.ts`
+   `pages/api/task.ts`
 
-2. Locate the section where the backend URL is defined.
-
-   ```ts
-   export const url = "http://127.0.0.1:4000";
-   ```
+2. open the file located at:
+     `pages/api/libs/mongodb.ts`
+     and add your mongodb url here 
 
 ### Step 3: Run the application
 
