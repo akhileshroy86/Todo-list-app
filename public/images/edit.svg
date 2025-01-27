@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Pencil Body -->
+    <path d="M12 20l-9 3 3-9L18.6 1.4a2 2 0 0 1 2.8 2.8L12 20z" fill="none" />
+    <!-- Eraser -->
+    <rect x="16.5" y="2.5" width="4" height="4" rx="1" fill="none" />
+    <!-- Pencil Tip -->
+    <path d="M10 18l-1.5 1.5 3 3L12 21z" fill="none" />
+</svg>
